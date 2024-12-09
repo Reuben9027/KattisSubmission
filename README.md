@@ -1,5 +1,7 @@
 # KattisSubmission
-Automatic Github uploader extenssion testing
+Automatic Github uploader extenssion testing. 
+
+WARNING: Potential security risks on using extension (can someone check this lol).
 
 
 # How to use Extension
