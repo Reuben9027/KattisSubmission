@@ -1,0 +1,66 @@
+
+html
+{
+    background-color: rgb(3, 3, 46);
+    width: 200px;  /* max: 800px */
+    height: 200px; /* max: 600px */
+}
+
+.div-extension{
+    width: 90%;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: blue;
+    justify-content: center;
+    position: relative;
+    left: 5%;
+}
+
+.extension-header{
+    color: beige;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.submit-button{
+    position:absolute;     
+    width: 80%;
+    height: 50px;
+    border: 0px;
+    background-color: rgb(9, 255, 0);
+    border-radius: 10px;
+    left: 10%;
+    top: 65%;
+    
+}
+
+.login-button{
+    position:absolute;     
+    width: 80%;
+    height: 50px;
+    border: 0px;
+    background-color: rgb(9, 255, 0);
+    border-radius: 10px;
+    left: 10%;
+    top: 35%;
+    
+}
+
+.form-container {
+    position: relative;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates a 3-column grid */
+    gap: 20px; /* Adds space between forms */
+}
+.form-container form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.form-container form input,
+.form-container form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
