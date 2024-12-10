@@ -15,6 +15,6 @@ WARNING: Potential security risk in using extension (can someone check this lol)
   * GitHub Personal Access Token.
   * Github Username. 
   * GitHub Repository Name.
-- Open a kattis submission eg. https://open.kattis.com/example/submissions/0987654321.
+- Open a kattis submission page eg. https://open.kattis.com/example/submissions/0987654321.
 - Open the extension then click Submit.
 ## Profile (SOON)
