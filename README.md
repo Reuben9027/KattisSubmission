@@ -8,7 +8,7 @@ WARNING: Potential security risk in using extension (can someone check this lol)
 ## Installation (for now)
 - Download the extension folder
 - chrome://extensions -> select load unpacked
-- select the downloaded folder
+- Select the downloaded folder
 
 ## Code Submission
 - Login (Automatically stored once done).
