@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+    <style>
+        html
+        {
+            background-color: rgb(3, 3, 46);
+            width: 200px;  /* max: 800px */
+            height: 300px; /* max: 600px */
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="div-extension">
+        <h3 class="extension-header">Kattis Uploader</h3>
+    </div>    
+    
+    <form >
+        <input type="text" class= "key-forms" id="profile-form" placeholder="Profile">
+    </form>
+
+    <button id="setProfileButton" class="login-button"> SET PROFILE</button>
+    <button id="updateProfileButton" class="submit-button"> UPDATE PROFILE</button>
+    
+    <p id="accepted" class="answer-test"> test</p>
+    <p id="wrong" class="answer-test">test1 </p>
+    <p id="tle" class="answer-test">test2    </p>
+
+    <script type="module" src="storage.js"></script>
+    <script type="module" src="profile_script.js"></script>
+    <!-- <script type="module" src="upload.js"> </script> -->
+    <!-- <script type="module" src="main.js"> </script> -->
+</body>
+</html>

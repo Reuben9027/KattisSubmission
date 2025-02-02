@@ -1,6 +1,5 @@
 
 import { TokenString, OwnerString, RepoString,
-    migrateLocalStorageToChromeStorage,
     token, owner,repo
 
  } from './storage.js';
@@ -14,7 +13,7 @@ var repoForm = document.getElementById("repoForm");
 if( localStorage[TokenString] == null){
     localStorage[TokenString] = "";
     localStorage[OwnerString] = "";
-    localStorage[RepoStringz] ="";
+    localStorage[RepoString] ="";
 }
 
 loginEnter.onclick = () => {

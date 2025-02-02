@@ -5,6 +5,7 @@ import { TokenString, OwnerString, RepoString} from './storage.js';
 
 var button = document.getElementById("testButton");
 var buttonLogin = document.getElementById("loginButton");
+var buttonProfile = document.getElementById("profileButton");
 
 
 buttonLogin.onclick =() =>{
@@ -17,6 +18,13 @@ buttonLogin.onclick =() =>{
     }
 }
 
+buttonProfile.onclick = () =>{
+    try {
+        window.location.href = "profile_index.html"
+    } catch (error) {
+        
+    }
+}
 
     
 button.onclick = () => {
